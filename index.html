@@ -7,6 +7,13 @@
     <title>Jogo da velha</title>
 </head>
 <body>
-    
+    <div class='jogo'></div>
+    <button class="btn" onclick="jogo_da_velha.restart()" title="Jogar novamente">Restart</button>
+
+    <script src="js/jogo_da_velha.js"></script>
+    <script>
+        jogo_da_velha.init( document.querySelector('.jogo') );
+        jogo_da_velha.start();
+    </script>
 </body>
 </html>
