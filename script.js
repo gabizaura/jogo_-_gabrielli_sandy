@@ -70,7 +70,7 @@ const jogo_da_velha = {
 
     game_is_over() {
         this.gameover = true;
-        console.log('GAME OVER');
+        console.log('FIM DE JOGO');
     },
 
     is_game_over() {
